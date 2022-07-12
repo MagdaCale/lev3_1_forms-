@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Forms 3.1</title>
+</head>
+<body>
+    <header>
+        <h1>Sign Up Now!</h1>
+        <p>Sign up and tell us what you think of the Site</p>
+    </header>
+    <fieldset>
+        <main>
+            <form class="SignUp">
+                            <!--      name & adress     -->
+                    <section>
+                        <h3><span>&#10122;</span> First Name & Adress</h3>
+                        <article>
+                            <label for="name"> Your Full Name</label>
+                            <input type="text" name="name" id="name">
+            
+                            <label for="adress">Adress</label>
+                            <input type="text" name="adress" id="adress">
+                        </article>
+                    </section>
+                            <!--      mail & phone    -->
+                    <section>
+                        <h3><span>&#10123;</span> Email & Phone</h3>
+                        <article>
+                            <label for="mail">Email Adresse</label>
+                            <input type="email" name="mail" id="mail">
+            
+                            <label for="tel"> Phone Number</label>
+                            <input type="tel" name="tel" id="tel">
+                        </article>
+                    </section>
+                            <!--    password      -->
+                    <section>
+                        <h3><span>&#10124;</span> Passwords</h3>
+                        <article>
+                            <label for="pw">Password</label>
+                            <input type="password" name="pw" id="pw">
+
+                            <label for="pw">Confirm Password</label>
+                            <input type="password" name="pw" id="pw">
+                        </article>
+                    </section>
+                            <!--    submit & policy      -->
+                    <section class="sub">
+                        <input type="submit" value="Submit">
+                        <div class="check">
+                            <input type="checkbox"><label>You agree to our terms and policy</label>
+                        </div>
+                    </section>
+                </form>
+            </main>
+    </fieldset>
+</body>
+</html>
